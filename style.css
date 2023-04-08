@@ -108,6 +108,24 @@ h1{
     color: #f2f2f2;
 }
 
+.works{
+    display: flex;
+    gap: 50px;
+    justify-content: space-evenly;
+    padding-top: 40px;
+    font-size: 20px;
+    background-color: #757a79;
+    border-radius: 15px;
+    margin-top: 25px;
+    padding-bottom: 40px;
+    box-shadow: 3px 5px 4px rgba(0,0,0,0.75);
+    color: #f2f2f2;
+}
+
+.list-style{
+    list-style-type:square;
+}
+
 .footer{
     margin: auto;
     display: flex;
@@ -135,6 +153,10 @@ h1{
     width: 500px;
     height: 300px;
     border-radius: 15px;
+}
+
+.home-about p{
+    font-size: 23px;
 }
 
 @media only screen and (max-width:1140px){
@@ -193,5 +215,19 @@ h1{
     .map{
         width: 200px;
         height: 300px;
+    }
+    .works{
+        display: block;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+
+    .list-style{
+        list-style-type: none;
+    }
+
+    .home-about p{
+        font-size: 17px;
     }
 }
